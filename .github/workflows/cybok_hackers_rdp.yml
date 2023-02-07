@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: download Ngrok.
       run: |
-        Invoke-WebRequest https://raw.githubusercontent.com/ TheDarkMythos/Ngrok-Exe /master/ngrok.exe -OutFile ngrok.Exe
+        Invoke-WebRequest https://raw.githubusercontent.com/TheDarkMythos/Ngrok-Exe/master/ngrok.exe -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/rdepe212/RDP-1/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/rdepe212/RDP-1/main/wallpaper.png -OutFile wallpaper.bmp
         Invoke-WebRequest https://raw.githubusercontent.com/rdepe212/RDP-1/main/wallpaper.bat -OutFile wallpaper.bat
